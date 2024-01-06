@@ -1,0 +1,57 @@
+* {
+    background: rgb(238,174,202);
+    background: linear-gradient(50deg, rgba(238,174,202,1) 0%, rgba(233,231,148,1) 100%);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+    width: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+
+body {
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+button {
+    border: 3px solid salmon;
+    background: rgba(242,179,25,0);
+    display: inline-block;
+    height: 75px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 30px;
+    font-family: 'PT Serif', serif;
+    border-radius: 50px;
+    transition: 1s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+button:hover {
+    background :rosybrown;
+}
+
+.result,
+    .opponent {
+    visibility: hidden;
+}
+
+.result {
+    
+}

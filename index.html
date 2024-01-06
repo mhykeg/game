@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <h1>Welcome to Scissors Paper Stone</h1>
+</head>
+<body>
+    <h2>Take your pick</h2>
+    <button type="button" id="scissors" class ="scissors player choice" onclick="scissors()">Scissors</button>
+    <button type="button" id="paper" class="paper player choice" onclick="paper()">Paper</button>
+    <button type="button" id="stone" class="stone player choice" onclick="stone()">Stone</button>
+    <h3 id="player-final-choice">What will you play?</h3>
+    <script src="console.js"></script>
+    <h3 id="opponent-choice" class="opponent choice">Opponent played Stone</h3>
+    <p class="result" id="result">Will you win?</p>
+    <p class="score" id="score-count">Player Score: 0, Computer Score: 0</p>
+    <p class="leader" id="leader">Nobody is leading!</p>
+</body>
+</html>
